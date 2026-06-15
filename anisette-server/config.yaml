@@ -1,0 +1,15 @@
+name: "Anisette Server"
+version: "1.0.0"
+slug: "anisette_server"
+description: "Anisette provisioning server for Apple FindMy / FindMy Fleet"
+url: "https://github.com/iblur01/anisette-ha-addon"
+arch:
+  - aarch64
+  - amd64
+ports:
+  6969/tcp: 6969
+ports_description:
+  6969/tcp: "Anisette HTTP API"
+map:
+  - data:rw
+init: false
